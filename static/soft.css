@@ -1,0 +1,402 @@
+*{
+     font-family: 'EB Garamond', serif;;
+    margin: 4px;
+    
+}
+
+.bod{
+    margin: 0;
+    background-color: black;
+
+}
+.home{
+    background-color: rgb(28, 29, 31);
+    width: 280px;
+    height: 150px;
+    border-radius: 6px;
+    margin-top: 0%;
+    padding-top: 0px;
+    margin-bottom: 14px;
+}
+.home ul li span{
+    color: aliceblue;
+    
+
+}
+.home ul{
+    list-style: none ;
+    line-height:40px;
+}
+
+.home ul li i{
+    color: aliceblue;
+    margin-right: 11px;
+    margin-left: 5px;
+    font-size: 18px;
+}
+.lab{
+    background-color:rgb(28, 29, 31);
+    border-radius: 6px;
+    width: 280px;
+    height: 380px;
+}
+.lab span{
+    color: aliceblue;
+    display: flex;
+    padding-top: 15px;
+    padding-left: 38px;
+}
+.lab span i{
+    font-size: 25px;
+}
+.lab span h1{
+    font-size: 25px;
+}
+.home img{
+    width:120px ;
+    margin-left: 30px;
+}
+.bar{
+    background-color:rgb(28, 29, 31) ;
+    width: 245px;
+    height: 65px;
+    margin-left:10px ;
+    margin-top: 20px;
+    color: aliceblue;
+    overflow: hidden;
+    overflow-y: scroll;
+    
+    
+}
+.inbar{
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(53, 51, 55);
+    padding: 10px;
+    
+}
+.inbar h4{
+    margin:10px;
+    font-style: bold;
+}.inbar h5{
+    margin:10px;
+    margin-bottom: 20px;
+}
+.btn{
+    background-color: aliceblue;
+    border-radius: 16px;
+    color: black;
+    height: 35px;
+    width: 130px;
+
+}
+.down p{
+    color: rgb(106, 109, 111);
+    justify-content: space-around;
+    width: 200px;
+    align-items: center;
+    font-size: small;
+    margin: 20px;
+
+    
+}
+.down{
+    margin-top: 30px;
+   
+    width: 245px;
+    margin-left:10px ;
+    height: 100px;
+}
+.bod{
+    display: flex;
+}
+.up{
+    background:linear-gradient(rgb(26, 26, 27) , rgba(28, 29, 31)) ;
+    width: 76%;
+    height: 80px;
+    border-radius: 6px;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+   
+  
+}
+.list ul{
+    display: flex;
+
+}
+.list ul li{
+    list-style: none;
+}
+button{
+    width: 88px;
+    height: 30px;
+    border-radius: 16px;
+    
+}
+.sin{
+   margin-top:10px ;
+}
+.sin a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.ran{
+    display: flex;
+    margin-top: 15px;
+}
+.logo{
+    margin-top: 18px;
+}
+.sidbar{
+    position: fixed;
+}
+.mid{
+   background: black;
+    height: 900px;
+    width: 100%;
+    margin-left: 300px;
+    border-radius: 16px;
+    overflow-x: hidden;
+    position: fixed;
+   
+   
+}
+::-webkit-scrollbar{
+   width: 8px;
+   background-color: rgb(28, 29, 31) ;
+  }
+ ::-webkit-scrollbar-thumb{
+    background-color: rgb(134, 136, 136);
+    border-radius: 4px;
+ } 
+.nich{
+    width:76%;
+    height: 900px;
+    background: linear-gradient(rgba(168, 160, 160, 0.3) ,rgba(26, 25, 25, 0.3));
+    margin-top:80px ;
+    border-radius: 8px;
+   
+   
+    
+}
+.j1{
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+    align-items: center;
+    height: 66px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+.first{
+    background-color: rgb(28, 29, 31);
+    width: 155px;
+    height: 185px;
+    border-radius: 10px;
+    padding: 8px;
+
+    
+}
+.first img{
+    width: 150px;
+    height: 120px;
+    border-radius: 16px;
+   
+}
+.first span{
+    color: aquamarine;
+    position: static;
+    visibility: hidden;
+    margin-left: 60px;
+    cursor: pointer;
+    
+}
+.first:hover span{
+    visibility: visible;
+}
+.second{
+    background-color: rgb(28, 29, 31);
+    width: 155px;
+    height: 185px;
+    border-radius: 10px;
+    padding: 8px;
+}
+.second img{
+    width: 150px;
+    height: 120px;
+    border-radius: 16px;
+}
+.second span{
+    color: aquamarine;
+    position: static;
+    visibility: hidden;
+    margin-left: 60px;
+   cursor: pointer;
+    
+}
+.second:hover span{
+    visibility: visible;
+}
+.third{
+    background-color: rgb(28, 29, 31);
+    width: 155px;
+    height: 185px;
+    border-radius: 10px;
+    padding: 8px;
+}
+.third img{
+    width: 150px;
+    height: 120px;
+    border-radius: 16px;
+}
+.third span{
+    color: aquamarine;
+    position: static;
+    visibility: hidden;
+    margin-left: 60px;
+    cursor: pointer;
+    
+}
+.third:hover span{
+    visibility: visible;
+}
+.four{
+    background-color: rgb(28, 29, 31);
+    width: 155px;
+    height: 185px;
+    border-radius: 10px;
+    padding: 8px;
+}
+.four img{
+    width: 150px;
+    height: 120px;
+    border-radius: 16px;
+}
+.four span{
+    color: aquamarine;
+    position: static;
+    visibility: hidden;
+    margin-left: 60px;
+    position: relative;
+    cursor: pointer;
+    
+}
+.four:hover span{
+    visibility: visible ;
+    transition: ease-in ;
+}
+.play{
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue;
+}
+.first1{
+    background-color: rgb(28, 29, 31);
+    width: 155px;
+    height: 185px;
+    border-radius: 10px;
+    padding: 8px;
+
+    
+}
+.first1 img{
+    width: 150px;
+    height: 120px;
+    border-radius: 16px;
+   
+}
+.first1 span{
+    color: aquamarine;
+    position: static;
+    visibility: hidden;
+    margin-left: 60px;
+    cursor: pointer;
+    
+}
+.first1:hover span{
+    visibility: visible;
+}
+.second1{
+    background-color: rgb(28, 29, 31);
+    width: 155px;
+    height: 185px;
+    border-radius: 10px;
+    padding: 8px;
+}
+.second1 img{
+    width: 150px;
+    height: 120px;
+    border-radius: 16px;
+}
+.second1 span{
+    color: aquamarine;
+    position: static;
+    visibility: hidden;
+    margin-left: 60px;
+    cursor: pointer;
+    
+}
+.second1:hover span{
+    visibility: visible;
+}
+.third1{
+    background-color: rgb(28, 29, 31);
+    width: 155px;
+    height: 185px;
+    border-radius: 10px;
+    padding: 8px;
+}
+.third1 img{
+    width: 150px;
+    height: 120px;
+    border-radius: 16px;
+}
+.third1 span{
+    color: aquamarine;
+    position: static;
+    visibility: hidden;
+    margin-left: 60px;
+    cursor: pointer;
+    
+}
+.third1:hover span{
+    visibility: visible;
+}
+.four1{
+    background-color: rgb(28, 29, 31);
+    width: 155px;
+    height: 185px;
+    border-radius: 10px;
+    padding: 8px;
+}
+.four1 img{
+    width: 150px;
+    height: 120px;
+    border-radius: 16px;
+}
+.four1 span{
+    color: aquamarine;
+    position: static;
+    visibility: hidden;
+    margin-left: 60px;
+    position: relative;
+    cursor: pointer;
+    
+}
+.four1:hover span{
+    visibility: visible ;
+    transition: ease-in ;
+}
+.play1{
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue;
+   
+}
+.myAudio source{
+    visibility: hidden;
+    
+}
